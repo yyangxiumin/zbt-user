@@ -1,0 +1,204 @@
+.sc-calendar {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+ /* color: #4A4A4A;
+  box-shadow: 2px 4px 5px #bdbdbd;
+  border-width: 1px 0 0 1px;
+  border-color: #E6E4E0;
+  border-style: solid;
+  float: left;
+  margin-right: 20px;*/
+  -moz-user-select: none;
+  /*火狐*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -ms-user-select: none;
+  /*IE10*/
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  font-size: 16px;
+}
+
+.sc-header {
+ /* height: 35px;*/
+  border-bottom: 0;
+}
+.sc-body {
+  height: 93%;
+  clear: both;
+ /* box-shadow: 2px 4px 5px #bdbdbd;*/
+}
+.sc-week {
+  height: 12%;
+  font-weight: 400;
+ 
+  
+}
+.sc-days {
+  height: 88%;
+}
+.sc-item {
+  height: 20%;
+  float: left;
+  font-weight: 600;
+  color: #fff;
+  width: 14.285%;
+  margin-top:5px;
+  padding-top: 5px;
+ padding-bottom: 5px;
+  box-sizing: border-box;
+  border:1px solid #4ECDC4;
+}
+.item-nolunar {
+  padding-top: 20px;
+}
+.sc-item:nth-child(7n) .day, .sc-item:nth-child(7n+6) .day {
+  color: #eaeaea;
+}
+.sc-vocation {
+  background-color: #FFEBEC;
+}
+.sc-mark{
+  background-color: #E5FBFA;
+}
+.sc-vocation:before {
+  content: '休';
+  display: block;
+  position: absolute;
+  font-size: 0.7em;
+  width: 1.2em;
+  font-weight: 100;
+  color: white;
+  background-color: #E00808;
+  margin-top: -10px;
+}
+.sc-othermenth {
+  color: #ccc !important;
+}
+.sc-othermenth .day, .sc-othermenth .lunar-day {
+  color: #ccc !important;
+}
+.sc-active-day, .sc-selected {
+  border: 1px solid #fff;
+}
+.sc-today {
+  background-color: #fff;
+  color:#4ECDC4;
+  border: 1px solid #4ECDC4;
+}
+.sc-item .day {
+  font-size: 16px;
+}
+.sc-today .day {
+  color: #4ECDC4 !important;
+}
+.sc-item .lunar-day {
+  font-size: 10px;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+.sc-festival .lunar-day {
+  color: #fff;
+}
+
+/*.sc-item:last-child, .sc-item:nth-child(7n) {
+  border-width: 0 1px 1px 1px;
+}*/
+
+.sc-week-item {
+  height: 100%;
+  padding-top: 2%;
+  float: left;
+  width: 14.285%;
+ 
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sc-item-small{
+  font-size: 10px !important;
+}
+.sc-week-item:last-child {
+  border-width: 1px 1px 1px 1px;
+}
+.sc-week-item:nth-child(7n), .sc-week-item:nth-child(7n+6) {
+  color: #eaeaea;
+}
+.sc-actions {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  height: 100%;
+  box-sizing: border-box;
+ 
+}
+/*.sc-actions:last-child {
+  float: right;
+}*/
+.sc-actions-big{
+  width: 50%;
+}
+@media screen and (max-width : 500px){
+.sc-actions{
+  width: 50%;
+}
+}
+.sc-header select {
+
+ 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+ 
+  color: #fff;
+  
+  background-color:transparent;
+  border:none;
+}
+.sc-header select option{ color:#000;}
+.sc-header select:focus{ outline:none;}
+.sc-header input {
+  border-color: rgba(0, 0, 0, 0);
+  padding: 0.2em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+ 
+  color: #606060;
+}
+.sc-actions div {
+  display: inline-block;
+  /*border: 1px solid #ccc;*/
+  vertical-align: bottom;
+  width: 20px;
+  
+  font-size: 1.5em;
+  line-height: 0.9em;
+
+}
+
+
+.sc-return-today {
+  display: block;
+  background-color: transparent;
+  border-radius: 2px;
+   color:#fff;
+   border: 1px solid #fff; 
+  width: 80px;
+  font-size: 0.8em;
+  padding: 0.3em;
+  margin: auto;
+  text-align:center;
+ 
+}
+
+.sc-time {
+  display: block;
+  margin-top: 3px;
+  font-size: 0.8em;
+  
+}

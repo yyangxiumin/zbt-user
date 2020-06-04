@@ -1,0 +1,152 @@
+.fh-wrapper {
+    display: inline-block;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.resume-info-form-panel {
+    padding: 15px 0 0 50px;
+    background: #ffffff;
+    text-align: left;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-panel-ftr {
+    padding: 50px 200px;
+    font-size: 14px;
+    background: #f6f6f8;
+}
+.form-panel-ftr .position-span1-1 {
+    font-size: 20px;
+    color: #414a60;
+}
+
+.smSt-1 {
+    padding-bottom: 20px;
+}
+
+.text-color1-1 {
+    margin-bottom: 30px;
+    padding-left: 5px;
+    color: #414a60;
+    font-size: 16px;
+    border-left: 3px solid #48bcb4;
+    font-weight: 700;
+}
+.form-horizontal.style-form .form-group-mt {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.form-group-information {
+    padding-left: 50px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.Personal-editing {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Personal-editing > a {
+   
+    color: #48bcb4;
+}
+
+.op {
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.form-group-information:hover .op{
+    display: block;
+}
+
+.op > a {
+    color: #48bcb4;
+}
+
+.Small-section {
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 100px;
+    border-bottom: 1px solid #f6f6f8;
+}
+
+.smSt-1 .form-panel-profile-pic i {
+    font-size: 10px;
+    color: #aaaaaa;
+}
+
+.p-small {
+    margin-top: 25px;
+}
+
+.smSt-1 .prev-line {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #414a60;
+}
+
+.smSt-1 .prev-line-2 {
+    padding: 0 40px;
+    color: #414a60;
+    border-right: 1px solid #aaa;
+}
+.smSt-1 .prev-line-3 {
+    padding: 0 30px;
+    font-size: 14px;
+    color: #414a60;
+}
+
+.form-group-information .prev-line {
+    color: #999;
+}
+
+.Add-resume {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    line-height: 30px;
+    color: #48bcb4;
+}
+
+.Add-resume .Add {
+    font-size: 12px;
+    color: #48bcb4;
+}
+
+.small-btn {
+    position: absolute;
+    right: -20px;
+}
+
+.form-panel-profile-pic .resume-img-circle {
+    /* margin: 30px 0 20px 150px; */
+    margin-left: 40%;
+    width: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: 10px solid #f1f2f7;
+}
+.form-panel-profile-pic .fj-img-circle {
+    margin-left: 50px;
+}
+
+.ct-prev-line-h2 {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fancybox-content-consult {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ct-prev-line {
+    color: #333;
+}
+

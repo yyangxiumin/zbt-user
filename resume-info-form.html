@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Dashboard">
+  <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+  <title>人才管理</title>
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--external css-->
+  <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-responsive.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/resume-info-form.css">
+
+</head>
+
+<body>
+  <section id="container">
+    <!-- **********************************************************************************************************************************************************
+        TOP BAR CONTENT & NOTIFICATIONS
+        *********************************************************************************************************************************************************** -->
+    <!--header start-->
+    <header class="header black-bg">
+      <div class="sidebar-toggle-box">
+        <div class="fa fa-bars tooltips" data-placement="right" data-original-title="招宝通"></div>
+      </div>
+      <!--logo start-->
+      <a class="logo"> <img src="img/logo2.jpg" width="90"> </a>
+      <!--logo end-->
+      <div class="nav notify-row" id="top_menu">
+        <!--  notification start -->
+        <!--  notification end -->
+      </div>
+      <div class="top-menu">
+        <ul class="nav pull-right top-menu">
+          <li><button class="logout" onclick="UserlogOut()" type="submit">退出登陆</button></li>
+        </ul>
+      </div>
+    </header>
+    <!--header end-->
+    <!-- **********************************************************************************************************************************************************
+        MAIN SIDEBAR MENU
+        *********************************************************************************************************************************************************** -->
+    <!--sidebar start-->
+    <aside>
+      <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" id="nav-accordion">
+          <p class="centered"><a href="/User/Info"><img src="img/ui-sam.jpg" class="img-circle" width="80"></a></p>
+          <h5 class="centered">Sam Soffes</h5>
+          <li class="mt"> <a href="javascript:;"> <i class="fa fa-dashboard"></i> <span>品牌商管理</span> </a> </li>
+          <li> <a href="product-management.html"> <i class="fa fa-desktop"></i> <span>产品管理</span> </a> </li>
+          <li> <a href="javascript:;"> <i class="fa fa-cogs"></i> <span>新品管理</span> </a> </li>
+          <li> <a href="recruitment.html"> <i class="fa fa-book"></i> <span>招聘管理</span> </a> </li>
+          <li> <a href="find-job.html"> <i class="fa fa-th"></i> <span>人才管理</span> </a> </li>
+          <li> <a href="javascript:;"> <i class="fa fa-envelope"></i> <span>干货管理</span> </a> </li>
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
+    <!--sidebar end-->
+    <!-- **********************************************************************************************************************************************************
+        MAIN CONTENT
+        *********************************************************************************************************************************************************** -->
+
+    <!--main content start-->
+    <section id="main-content">
+      <section class="fh-wrapper">
+        <form class="form-horizontal style-form" method="get">
+          <div class="row m-top" style="margin-bottom:0;">
+            <div class="col-lg-12">
+              <a href="find-job.html" class="btn btn-theme btn2" style="margin-left: 25px;">返回</a>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+
+          <!-- BASIC FORM ELELEMNTS -->
+          <div class="form-panel-ftr">
+            <div class="resume-info-form-panel">
+              <h2 class="h2-position-span1">
+                <i class="fa fa-angle-right"></i><span class="position-span1-1">&nbsp; 个人简历信息</span>
+              </h2>
+              <div class="row Small-section-row-fat">
+                <div class="col-lg-11">
+                  <!-- 个人信息 -->
+                  <div class="Small-section smSt-1">
+                    <h4 class="text-color1-1">个人信息</h4>
+                    <div class="Add-resume"><i class="fa fa-plus"></i><a href="" class="Add">添加</a></div>
+                    <div class="form-panel-profile-pic row">
+                      <!-- <p> -->
+                      <label class="col-md-4">
+                        <label class="col-md-8">
+                          <img src="img/ui-sam.jpg" class="resume-img-circle">
+                        </label>
+                        <label class="col-md-10 Personal-editing" >
+                          <a href="javascript:;" class="">编辑</a>
+                        </label>
+                      </label>
+                      <label class="col-md-8">
+                        <label class="col-md-7">
+                          <h2 style="display: inline-block;" class="ct-prev-line-h2">Sam Soffes</h2>
+                          <label style="margin-left: 10%; color: #999;">离职-随时到岗</label>
+                        </label>
+                        <label class="col-md-7">
+                          <label class="col-md-3 prev-line">男</label>
+                          <label class="col-md-4 prev-line"><i
+                              class="glyphicon glyphicon-briefcase"></i>&nbsp;&nbsp;1年经验</label>
+                          <label class="col-md-4 prev-line"><i
+                              class="glyphicon glyphicon-education"></i>&nbsp;&nbsp;本科学历</label>
+                          <label class="col-md-5 prev-line"><i
+                              class="glyphicon glyphicon-earphone"></i>&nbsp;&nbsp;12341234123</label>
+                          <label class="col-md-3 prev-line">1234123412@qq.com</label>
+                          <label class="col-md-7 prev-line"><i
+                              class="glyphicon glyphicon-map-marker"></i>&nbsp;&nbsp;广东-佛山-顺德广东-佛山-顺德</label>
+                        </label>
+                      </label>
+                    </div>
+
+
+
+                  </div>
+
+                  <!-- 个人优势 -->
+                  <div class="Small-section">
+                    <h4 class="text-color1-1">个人优势</h4>
+                    <div class="row " style="padding-bottom: 10px;">
+                      <label class="col-md-9 ct-prev-line">
+                        我的个人优势写在这里我的个人优势写在这里
+                        我的个人优势写在这里我的个人优势写在这里
+                        我的个人优势写在这里我的个人优势写在这里
+                        我的个人优势写在这里
+                      </label>
+                    </div>
+
+                  </div>
+
+                  <!-- 求职期望 -->
+                  <div class="Small-section">
+                    <h4 class="text-color1-1">求职期望</h4>
+                    <div class="Add-resume"><i class="fa fa-plus"></i><a href="" class="Add">添加</a></div>
+
+                    <div class="form-group-information">
+                      <div class="op">
+                        <a href="javascript:;">编辑</a>&nbsp;&nbsp;&nbsp;
+                        <a href="javascript:;">删除</a>
+                      </div>
+                      <div class="row form-horizontal ">
+                        <label class="col-md-5 "><span class="prev-line">求职部门：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">营销中心</span>
+                        </label>
+                        <label class="col-md-5 "><span class="prev-line">期望职位：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">销售部-销售总监-销售员</span> </label>
+                      </div>
+                      <div class="row form-horizontal ">
+                        <label class="col-md-5 "><span class="prev-line">工作城市：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">广东-佛山-顺德</span>
+                        </label>
+                        <label class="col-md-5 "><span class="prev-line">薪资范围：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">5000-6000</span>
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="form-group-information">
+                      <div class="op">
+                        <a href="javascript:;">编辑</a>&nbsp;&nbsp;&nbsp;
+                        <a href="javascript:;">删除</a>
+                      </div>
+                      <div class="row form-horizontal ">
+                        <label class="col-md-5 "><span class="prev-line">求职部门：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">营销中心</span>
+                        </label>
+                        <label class="col-md-5 "><span class="prev-line">期望职位：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">销售部-销售总监-销售员</span> </label>
+                      </div>
+                      <div class="row form-horizontal ">
+                        <label class="col-md-5 "><span class="prev-line">工作城市：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">广东-佛山-顺德</span>
+                        </label>
+                        <label class="col-md-5 "><span class="prev-line">薪资范围：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">5000-6000</span>
+                        </label>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <!-- 工作经历 -->
+                  <div class="Small-section">
+                    <h4 class="text-color1-1">工作经历</h4>
+                    <span class="Add-resume"><i class="fa fa-plus"></i><a href="" class="Add">添加</a></span>
+
+                    <div class="form-group-information">
+                      <div class="op">
+                        <a href="javascript:;">编辑</a>&nbsp;&nbsp;&nbsp;
+                        <a href="javascript:;">删除</a>
+                      </div>
+                      <div class="row form-horizontal ">
+                        <label class="col-md-5 "><span class="prev-line">就职时间：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">2012-06-21 ～
+                            2020-06-05</span> </label>
+                        <label class="col-md-5 "><span class="prev-line">公司名称：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">XXXXXXX</span>
+                        </label>
+                      </div>
+                      <div class="row form-horizontal ">
+                        <label class="col-md-5 "><span class="prev-line">就职部门：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">销售部</span>
+                        </label>
+                        <label class="col-md-5 "><span class="prev-line">就职岗位：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">销售部-销售总监-销售员</span> </label>
+                      </div>
+                      <div class="row form-horizontal ">
+                        <label class="col-md-10 " style="margin-top: 5px;"><span
+                            class="prev-line">工作内容：</span>&nbsp;&nbsp;
+                          <span class="ct-prev-line">销售销售销售销售销售销售销售销售销售销售销
+                            售销售销售销售销售销售销售销售销售销售销售
+                            销售销售销售销售销售销售销售销售销售销售销
+                            售销售销售销售销售销售销售销售销售</span>
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="form-group-information">
+                      <div class="op">
+                        <a href="javascript:;">编辑</a>&nbsp;&nbsp;&nbsp;
+                        <a href="javascript:;">删除</a>
+                      </div>
+                      <div class="row form-horizontal ">
+                        <label class="col-md-5 "><span class="prev-line">就职时间：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">2012-06-21 ～
+                            2020-06-05</span> </label>
+                        <label class="col-md-5 "><span class="prev-line">公司名称：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">XXXXXXX</span>
+                        </label>
+                      </div>
+                      <div class="row form-horizontal ">
+                        <label class="col-md-5 "><span class="prev-line">就职部门：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">销售部</span>
+                        </label>
+                        <label class="col-md-5 "><span class="prev-line">就职岗位：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">销售部-销售总监-销售员</span> </label>
+                      </div>
+                      <div class="row form-horizontal ">
+                        <label class="col-md-10 " style="margin-top: 5px;">
+                          <span class="prev-line">工作内容：</span>&nbsp;&nbsp;
+                          <span class="ct-prev-line">
+                            销售销售销售销售销售销售销售销售销售销售销
+                            售销售销售销售销售销售销售销售销售销售销售
+                            销售销售销售销售销售销售销售销售销售销售销
+                            售销售销售销售销售销售销售销售销售
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <!-- 教育经历 -->
+                  <div class="Small-section">
+                    <h4 class="text-color1-1">教育经历</h4>
+                    <span class="Add-resume"><i class="fa fa-plus"></i><a href="" class="Add">添加</a></span>
+                    <div class="form-group-information">
+                      <div class="op">
+                        <a href="javascript:;">编辑</a>&nbsp;&nbsp;&nbsp;
+                        <a href="javascript:;">删除</a>
+                      </div>
+                      <div class="row form-horizontal ">
+                        <label class="col-md-5 "><span class="prev-line">在校时间：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">2012-06-21 ～
+                            2020-06-05</span>
+                        </label>
+                        <label class="col-md-5 "><span class="prev-line">毕业学校：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">职业技术学院</span>
+                        </label>
+                      </div>
+                      <div class="row form-horizontal ">
+                        <label class="col-md-5 "><span
+                            class="prev-line">专&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;业：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">计算机软件</span>
+                        </label>
+                        <label class="col-md-5 "><span
+                            class="prev-line">学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;历：</span>&nbsp;&nbsp;<span
+                            class="ct-prev-line">本科</span>
+                        </label>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </form>
+      </section>
+      <!-- /wrapper -->
+    </section>
+    <!-- /MAIN CONTENT -->
+
+    <!--footer start-->
+    <footer class="site-footer">
+      <div class="text-center">
+        <p> &copy; Copyrights <strong>招宝通</strong>. All Rights Reserved </p>
+        <a href="#" class="go-top"> <i class="fa fa-angle-up"></i> </a>
+      </div>
+    </footer>
+    <!--footer end-->
+  </section>
+
+  <!--简历预览模板1-->
+  <section id="pre-talent1" class="pre-talent">
+    <h3 class="text-color1 text-center">预览个人信息1</h3>
+    <div class="row">
+      <div class="col-lg-12 mb">
+        <div class="row">
+          <h4 class="text-color1">1、求职状态</h4>
+          <div class="col-md-2 col-sm-4 centered">
+            <div class="profile-pic">
+              <p><img src="img/ui-sam.jpg" class="img-circle"></p>
+            </div>
+          </div>
+          <!-- /col-md-4 -->
+
+          <div class="col-md-6  col-sm-8 profile-text">
+            <h4>个人姓名</h4>
+
+            <p>
+              <span class="span-r">性别：</span><span class="text-muted">男</span> <span class="line-pd">|</span>
+              <span class="span-r">联系电话：</span><span class="text-muted" id="Tsphone">11111111111</span> <span
+                class="line-pd">|</span><br />
+              <span class="span-r">参加工作时间：</span> <span class="text-muted" id="TsworkTime">2020-04-30</span><span
+                class="line-pd">|</span>
+            </p>
+
+            <p><b>离职 - 随时到岗</b></p>
+            <br>
+          </div>
+
+
+          <div class="col-md-4  col-sm-12 profile-text mt mb">
+
+            <h4 class="ml-0">个人作品展示</h4>
+            <h5>
+              <span class="pic-width"><img src="img/no-pic.png" width="100%"></span>
+              <span class="pic-width"><img src="img/product.jpg" width="100%"></span>
+              <span class="pic-width"><img src="img/ui-zac.jpg" width="100%"></span>
+            </h5>
+
+          </div>
+
+
+
+          <div class="clearfix"></div>
+
+          <div class="col-md-12 profile-text mt mb">
+            <div class="">
+              <h4 class="ml-0">我的个人优势</h4>
+              <h5 class="line-height2 text-height" id="text-scroll">
+                我的个人优势写在这里我的个人优势写在这里我的个人优势写在这里我的个人优势写在这里我的个人优势写在这里我的个人优势写在这里我的个人优势写在这里</h5>
+            </div>
+          </div>
+          <!-- /col-md-3 -->
+
+
+          <!-- /col-md-3 -->
+
+        </div>
+        <!-- /row -->
+
+        <div class="row form-horizontal ">
+          <h4 class="text-color1">2、求职期望</h4>
+          <label class="col-md-2 control-label m-label">期望求职部门：</label>
+          <div class="col-md-4">
+            <p class="form-control-static" id="Tsproduct">营销中心</p>
+          </div>
+          <label class="col-md-2 control-label m-label">期望职位：</label>
+          <div class="col-md-4">
+            <p class="form-control-static" id="Tsexample">销售部-销售总监-销售员</p>
+          </div>
+        </div>
+
+        <div class="row form-horizontal ">
+          <label class="col-md-2 control-label m-label">期望工作城市：</label>
+          <div class="col-md-4">
+            <p class="form-control-static" id="city_text">广东-佛山-顺德</p>
+          </div>
+          <label class="col-md-2 control-label m-label">期望薪资范围：</label>
+          <div class="col-md-4">
+            <p class="form-control-static" id="Tssalary">5000-6000</p>
+          </div>
+        </div>
+
+        <div class="row form-horizontal ">
+          <h4 class="text-color1">3、工作经历</h4>
+          <label class="col-md-2 control-label m-label">就职公司名称：</label>
+          <div class="col-md-4">
+            <p class="form-control-static" id="TsworkName">XXXXXXX</p>
+          </div>
+          <label class="col-md-2 control-label m-label">就职时间：</label>
+          <div class="col-md-4">
+            <p class="form-control-static">2012-06-21 ～ 2020-06-05</p>
+          </div>
+        </div>
+
+        <div class="row form-horizontal ">
+          <label class="col-md-2 control-label m-label">就职部门：</label>
+          <div class="col-md-4">
+            <p class="form-control-static">销售部</p>
+          </div>
+          <label class="col-md-2 control-label m-label">就职岗位：</label>
+          <div class="col-md-4">
+            <p class="form-control-static">销售部-销售总监-销售员</p>
+          </div>
+        </div>
+
+        <div class="row form-horizontal ">
+          <label class="col-md-2 control-label m-label">主要工作内容：</label>
+          <div class="col-md-10">
+            <h5 class="line-height2 text-height" id="text-scroll">销售销售销售销售销售销售销售销售销售销售
+              销售销售销售销售销售销售销售销售销
+              售销售销售销售销售销售销售销售销售销售销售销售销售销售销售销售销售销售销售销售销售销售</h5>
+          </div>
+
+        </div>
+
+
+        <div class="row form-horizontal ">
+          <h4 class="text-color1">4、教育经历</h4>
+          <label class="col-md-2 control-label m-label">毕业学校：</label>
+          <div class="col-md-4">
+            <p class="form-control-static" id="TsschoolName"></p>
+          </div>
+          <label class="col-md-2 control-label m-label">专业：</label>
+          <div class="col-md-4">
+            <p class="form-control-static" id="Tsprofessional">计算机软件</p>
+          </div>
+        </div>
+
+        <div class="row form-horizontal ">
+          <label class="col-md-2 control-label m-label">在校时间：</label>
+          <div class="col-md-4">
+            <p class="form-control-static" id="TsschoolTime">2012-06-21 ～ 2020-06-05</p>
+          </div>
+          <label class="col-md-2 control-label m-label">学历：</label>
+          <div class="col-md-4">
+            <p class="form-control-static" id="Tseducation">本科</p>
+          </div>
+        </div>
+
+        <div class="row form-horizontal ">
+          <label class="col-md-2 control-label m-label">在校经历：</label>
+          <div class="col-md-10">
+            <p class="form-control-static" id="Tscontact-message"></p>
+          </div>
+        </div>
+      </div>
+      <!-- /col-lg-12 -->
+    </div>
+  </section>
+  <!--简历预览模板--结束>
+ js placed at the end of the document so the pages load faster -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script class="include" type="text/javascript" src="lib/jquery.dcjqaccordion.2.7.js"></script>
+  <script src="lib/jquery.scrollTo.min.js"></script>
+  <script src="lib/jquery.nicescroll.js" type="text/javascript"></script>
+  <script src="lib/jquery.sparkline.js"></script>
+
+
+
+  <!--script for this page-->
+  <!-- <script src="lib/jquery-ui-1.9.2.custom.min.js"></script> -->
+
+  <!--  时间日期选择 -  bootstrap-datepicker-->
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap-datepicker/css/datepicker.css" />
+  <link rel="stylesheet" type="text/css" href="lib/bootstrap-daterangepicker/daterangepicker.css" />
+  <script type="text/javascript" src="lib/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+  <script type="text/javascript" src="lib/bootstrap-daterangepicker/date.js"></script>
+  <script type="text/javascript" src="lib/bootstrap-daterangepicker/daterangepicker.js"></script>
+  <script type="text/javascript" src="lib/bootstrap-daterangepicker/moment.min.js"></script>
+  <script src="lib/advanced-form-components.js"></script>
+
+  <!--弹出框-->
+
+  <link href="lib/fancybox/jquery.fancybox.css" rel="stylesheet" />
+  <script src="lib/fancybox/jquery.fancybox.js"></script>
+  <!-- iCheck-->
+  <link href="lib/iCheck/skins/square/green.css" rel="stylesheet">
+  <link href="lib/iCheck/skins/line/green.css" rel="stylesheet">
+  <script src="lib/iCheck/icheck.js"></script>
+  <script type="text/jscript">
+
+
+$(document).ready(function(){
+	  $('input.radio1').iCheck({
+		checkboxClass: 'icheckbox_square-green',
+		radioClass: 'iradio_square-green',
+		increaseArea: '20%' // optional
+	  });
+	});
+
+$(document).ready(function(){
+		  $('.skin-line input').each(function(){
+			var self = $(this),
+			  label = self.next(),
+			  label_text = label.text();
+
+			label.remove();
+			self.iCheck({
+			  checkboxClass: 'icheckbox_line-green',
+			  radioClass: 'iradio_line-green',
+			  insert: '<div class="icheck_line-icon"></div>' + label_text
+			});
+		  });
+    });
+    
+
+</script>
+
+
+  <!--工作城市选择 script for this page-->
+  <script src="lib/selectCity2/Area.js" type="text/javascript"></script>
+  <script src="lib/selectCity2/AreaData_min.js" type="text/javascript"></script>
+  <script type="application/javascript">
+
+    // $(function () {
+    //   initComplexArea('seachprov', 'seachcity', 'seachdistrict', area_array, sub_array, '44', '0', '0');
+    // });
+
+    //得到地区码
+    // function getAreaID() {
+    //   var area = 0;
+    //   if ($("#seachdistrict").val() != "0") {
+    //     area = $("#seachdistrict").val();
+    //   } else if ($("#seachcity").val() != "0") {
+    //     area = $("#seachcity").val();
+    //   } else {
+    //     area = $("#seachprov").val();
+    //   }
+    //   return area;
+    // }
+
+    function showAreaID() {
+      //地区码
+      var areaID = getAreaID();
+      //地区名
+      var areaName = getAreaNamebyID(areaID);
+      alert("您选择的地区码：" + areaID + "      地区名：" + areaName);
+    }
+
+    //根据地区码查询地区名
+    function getAreaNamebyID(areaID) {
+      var areaName = "";
+      if (areaID.length == 2) {
+        areaName = area_array[areaID];
+      } else if (areaID.length == 4) {
+        var index1 = areaID.substring(0, 2);
+        areaName = area_array[index1] + " " + sub_array[index1][areaID];
+      } else if (areaID.length == 6) {
+        var index1 = areaID.substring(0, 2);
+        var index2 = areaID.substring(0, 4);
+        areaName = area_array[index1] + " " + sub_array[index1][index2] + " " + sub_arr[index2][areaID];
+      }
+      return areaName;
+    }
+
+  </script>
+
+
+  <!--vue三级联动下拉框-->
+  <script type="text/javascript" src="lib/vue-select/vue.min.js"></script>
+  <script type="text/javascript" src="lib/vue-select/items.js"></script>
+  <script>
+
+    var vm = new Vue({
+      el: '#example',
+      data: {
+        arr: arrAll,
+        prov: '销售部',
+        city: '营销总监',
+        district: '请选择',
+        cityArr: [],
+        districtArr: []
+      },
+      methods: {
+        updateCity: function () {
+          for (var i in this.arr) {
+            var obj = this.arr[i];
+            if (obj.name == this.prov) {
+              this.cityArr = obj.sub;
+              break;
+            }
+          }
+          this.city = this.cityArr[1].name;
+        },
+        updateDistrict: function () {
+          for (var i in this.cityArr) {
+            var obj = this.cityArr[i];
+            if (obj.name == this.city) {
+              this.districtArr = obj.sub;
+              break;
+            }
+          }
+          if (this.districtArr && this.districtArr.length > 0 && this.districtArr[1].name) {
+            this.district = this.districtArr[1].name;
+          } else {
+            this.district = '';
+          }
+        }
+      },
+      beforeMount: function () {
+        this.updateCity();
+        this.updateDistrict();
+      },
+      watch: {
+        prov: function () {
+          this.updateCity();
+          this.updateDistrict();
+        },
+        city: function () {
+          this.updateDistrict();
+        }
+      }
+    })
+    /*
+    --------------------*/
+    var vm = new Vue({
+      el: '#example2',
+      data: {
+        arr: arrAll3,
+        prov: '销售部',
+        city: '营销总监',
+        district: '请选择',
+        cityArr: [],
+        districtArr: []
+      },
+      methods: {
+        updateCity: function () {
+          for (var i in this.arr) {
+            var obj = this.arr[i];
+            if (obj.name == this.prov) {
+              this.cityArr = obj.sub;
+              break;
+            }
+          }
+          this.city = this.cityArr[1].name;
+        },
+        updateDistrict: function () {
+          for (var i in this.cityArr) {
+            var obj = this.cityArr[i];
+            if (obj.name == this.city) {
+              this.districtArr = obj.sub;
+              break;
+            }
+          }
+          if (this.districtArr && this.districtArr.length > 0 && this.districtArr[1].name) {
+            this.district = this.districtArr[1].name;
+          } else {
+            this.district = '';
+          }
+        }
+      },
+      beforeMount: function () {
+        this.updateCity();
+        this.updateDistrict();
+      },
+      watch: {
+        prov: function () {
+          this.updateCity();
+          this.updateDistrict();
+        },
+        city: function () {
+          this.updateDistrict();
+        }
+      }
+    })
+    /*VUE薪酬填写*/
+    var vm1 = new Vue({
+      el: '#example1',
+      data: {
+        arr: arrAll2,
+        money1: '----请选择最低薪酬----',
+        money2: '----请选择最高薪酬----',
+
+        money2Arr: [],
+
+      },
+      methods: {
+        updateMoney2: function () {
+          for (var i in this.arr) {
+            var obj = this.arr[i];
+            if (obj.name == this.money1) {
+              this.money2Arr = obj.sub;
+              break;
+            }
+          }
+          this.money2 = this.money2Arr[0].name;
+        },
+
+      },
+      beforeMount: function () {
+        this.updateMoney2();
+
+      },
+      watch: {
+        money1: function () {
+          this.updateMoney2();
+
+        },
+        money2: function () {
+
+        }
+      }
+    })
+  </script>
+
+
+
+
+  <!--  vue上传图片-->
+  <link rel="stylesheet" href="lib/vue-upload/upload-img.css">
+  <script src="lib/vue-upload/axios.min.js"></script>
+  <script>
+
+
+    /*vue上传图片*/
+
+    var app = new Vue({
+      el: '#app',
+      data: {
+        imgTempList: [], //图片临时路径列表
+        isUploading: false, //是否正在上传
+        successPath: [], //上传成功后的路径(没必要)
+      },
+      mounted: function () {
+        var that = this;
+      },
+      watch: {},
+      methods: {
+        //选择图片
+        onChooseImage: function (event) {
+          var that = this;
+
+          //判断图片数量是否已上限
+          var currentImgTempArray = that.imgTempList;
+          if (currentImgTempArray.length >= 3) {
+
+            alert("最多上传3张图片");
+            return false;
+
+          }
+
+          //使用FileReader对文件对象进行操作
+          var reader = new FileReader();
+          reader.readAsDataURL(event.target.files[0]); //将读取到的文件编码成Data URL
+          reader.onload = function () { //读取完成时
+            var replaceSrc = reader.result; //文件输出的内容
+
+            //压缩图片处理
+            var image = new Image();
+            image.src = replaceSrc;
+            image.onload = function () {
+              //获取图片初始宽高
+              var width = image.width;
+              var height = image.height;
+              //判断图片宽度，再按比例设置宽度和高度的值
+              if (width > 1024) {
+                width = 1024;
+                height = Math.ceil(1024 * (image.height / image.width));
+              }
+
+              //将图片重新画入canvas中
+              var canvas = document.getElementById("compressCanvas");
+              var context = canvas.getContext("2d");
+              canvas.width = width;
+              canvas.height = height;
+              context.beginPath();
+              context.fillStyle = "#ffffff";
+              context.fillRect(0, 0, width, height);
+              context.fill();
+              context.closePath();
+              context.drawImage(image, 0, 0, width, height);
+              replaceSrc = canvas.toDataURL("image/jpeg"); //canvas转DataURL(base64格式)
+
+              //将压缩后的路径 追加到临时路径数组中
+              var totalList = [];
+              if (currentImgTempArray.length > 0) {
+                totalList = currentImgTempArray.concat(replaceSrc);
+              } else {
+                totalList[0] = replaceSrc;
+              }
+              that.imgTempList = totalList;
+            };
+          };
+
+        },
+
+        //删除某张图片
+        deleteImg: function (idx) {
+          var that = this;
+          that.imgTempList.splice(idx, 1);
+        },
+
+        //提交上传图片
+        onUploadImg: function () {
+          var that = this;
+          var imgTempList = that.imgTempList;
+          if (imgTempList.length > 0) {
+
+            that.isUploading = true; //正在上传 显示遮罩层 防止连续点击
+
+            var countNum = 0; //计算数量用的 判断上传到第几张图片了
+
+            //map循环遍历上传图片
+            imgTempList.map(function (imgItem, imgIndex) {
+              var files = that.dataURLtoFile(imgItem, 'pj' + Date.now() + '.jpg'); //DataURL转File
+
+              //创FormData对象
+              var formdata = new FormData();
+              //append(key,value)在数据末尾追加数据。 这儿的key值需要和后台定义保持一致
+              formdata.append('img', files);
+
+              //用axios上传，
+              axios({
+                method: "POST",
+                //url: "http://www.clluo.com:8060/uploadImg",
+                url: "http://图片上传路径",
+                data: formdata,
+                headers: {
+                  "Content-Type": "multipart/form-data"
+                }
+              }).then(function (res) {
+
+                console.log(res);
+                countNum++;
+                console.log("第 " + countNum + " 张图片上传完成");
+                //图片全部上传完后去掉遮罩层
+                if (countNum >= imgTempList.length) {
+                  that.isUploading = false;
+                }
+
+                //没必要的代码 👇
+                var list = [];
+                if (that.successPath.length > 0) {
+                  list = that.successPath.concat(res.data.path);
+                } else {
+                  list[0] = res.data.path;
+                }
+                that.successPath = list;
+
+              }).catch(function (error) {
+                console.error(error);
+              });
+            });
+          }
+        },
+
+        /**
+         * 将base64转换为文件
+         * @dataUrl base64路径地址
+         * @fileName 自定义文件名字
+         * */
+        dataURLtoFile: function (dataUrl, fileName) {
+          var arr = dataUrl.split(','), mime = arr[0].match(/:(.*?);/)[1],
+            bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
+          while (n--) {
+            u8arr[n] = bstr.charCodeAt(n);
+          }
+          return new File([u8arr], fileName, { type: mime });
+        },
+      }
+    });
+
+
+  </script>
+
+
+
+  <!--common script for all pages-->
+  <script src="lib/common-scripts.js"></script>
+
+</body>
+
+</html>
